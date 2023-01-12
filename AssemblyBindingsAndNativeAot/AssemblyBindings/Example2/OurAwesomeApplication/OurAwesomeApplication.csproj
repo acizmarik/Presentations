@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net472</TargetFramework>
+    <LanguageVersion>latest</LanguageVersion>
+    <AutoGenerateBindingRedirects>True</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Dependency A\Dependency A.csproj" />
+    <ProjectReference Include="..\Dependency B\Dependency B.csproj" />
+  </ItemGroup>
+
+</Project>
